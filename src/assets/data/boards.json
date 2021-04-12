@@ -1,0 +1,59 @@
+[
+    {
+        "id":1,
+        "name": "My Persoal Board",
+        "list" : [
+            {
+                "id":1,
+                "title" : "To Do List",
+                "cards":[]
+            }
+        ],
+        "user":[ ]
+    },
+
+    {
+        "id":2,
+        "name": "Work Board",
+        "list" : [
+            {
+                "id":1,
+                "title" : "To Do List",
+                "cards":[]
+            }
+        ],
+        "user":[
+
+        ]
+    },
+
+    {
+        "id":3,
+        "name": "Work Board",
+        "list" : [
+            {
+                "id":1,
+                "title" : "To Do List",
+                "cards":[]
+            }
+        ],
+        "user":[
+
+        ]
+    },
+
+    {
+        "id":4,
+        "name": "Work Board",
+        "list" : [
+            {
+                "id":1,
+                "title" : "To Do List",
+                "cards":[]
+            }
+        ],
+        "user":[
+
+        ]
+    }
+]

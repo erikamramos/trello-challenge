@@ -1,0 +1,15 @@
+<div class="header">
+    <button mat-icon-button>
+        <mat-icon svgIcon="icon_home_app"></mat-icon>
+    </button>
+</div>
+<div class="list-container">
+    <div class="container">
+        <div class="add-list">
+            <mat-card class="new-list" (click)="addList()" >
+                <div style="margin: auto;"><mat-icon style="color: white;">add</mat-icon></div>
+            </mat-card>
+        </div>
+    </div>
+    <app-list *ngFor="let list of lists"></app-list>
+</div>

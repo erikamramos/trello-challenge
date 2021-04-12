@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="list">
+        <app-cards *ngFor="let item of items" [titleCard]="item.title"
+        ></app-cards>
+        <button mat-button class="add-card" (click)="createCard()" >
+            <mat-icon>add</mat-icon> Add new card
+        </button>
+    </div>
+</div>
